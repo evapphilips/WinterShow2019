@@ -1,0 +1,63 @@
+/* FONT */
+
+@import url("https://p.typekit.net/p.css?s=1&k=gyv3izn&ht=tk&f=37746.37754.37756.37758&a=15916513&app=typekit&e=css");
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/c5f153/00000000000000003b9b1a36/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/c5f153/00000000000000003b9b1a36/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/c5f153/00000000000000003b9b1a36/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/14bdda/00000000000000003b9b1a3e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/14bdda/00000000000000003b9b1a3e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/14bdda/00000000000000003b9b1a3e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/682c63/00000000000000003b9b1a40/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/682c63/00000000000000003b9b1a40/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/682c63/00000000000000003b9b1a40/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/72f7c9/00000000000000003b9b1a42/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/72f7c9/00000000000000003b9b1a42/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/72f7c9/00000000000000003b9b1a42/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:100;
+}
+
+.tk-urbane { font-family: "urbane",sans-serif; }
+
+/* PAGE STYLING */
+*{
+    font-family: 'urbane';
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    /* border: red;
+    border-style: solid; */
+    height: 100vh;
+}
+
+.section2{
+    /* border: red;
+    border-style: solid; */
+    height: 100vh;
+}
+
+.heading{
+    /* border: red;
+    border-style: solid; */
+    
+    text-align: center;
+    font-size: medium;
+    margin: 2vh;
+}
+
+
+.circle-container{
+    /* border: red;
+    border-style: solid; */
+}

@@ -1,0 +1,134 @@
+
+/* FONT */
+
+@import url("https://p.typekit.net/p.css?s=1&k=gyv3izn&ht=tk&f=37746.37754.37756.37758&a=15916513&app=typekit&e=css");
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/c5f153/00000000000000003b9b1a36/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/c5f153/00000000000000003b9b1a36/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/c5f153/00000000000000003b9b1a36/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/14bdda/00000000000000003b9b1a3e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/14bdda/00000000000000003b9b1a3e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/14bdda/00000000000000003b9b1a3e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/682c63/00000000000000003b9b1a40/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/682c63/00000000000000003b9b1a40/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/682c63/00000000000000003b9b1a40/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/72f7c9/00000000000000003b9b1a42/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/72f7c9/00000000000000003b9b1a42/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/72f7c9/00000000000000003b9b1a42/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:100;
+}
+
+.tk-urbane { font-family: "urbane",sans-serif; }
+
+
+/* STYLING */
+
+.bottomNav{
+    font-family: 'urbane';
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 12vh;
+    /* background-color: #99ccff;  */
+    background-image: linear-gradient(#ffffff,#99ccff);
+    padding: 20px;
+    
+}
+
+.factLabel{
+    font-weight: 400;
+    text-align: left;
+    font-size: 15pt;
+    color: #656565;
+    padding: none; 
+    line-height: 30pt; 
+}
+
+#secondLine{
+    text-align: left;
+    margin: none;
+}
+
+/* BUTTON */
+.learnMore{
+    font-family: 'urbane';
+    font-size: 11pt;
+    font-weight: 300;
+    color: #656565;
+    position: absolute;
+    height: 30%;
+    width: 10%;
+    top: 35%;
+    right: 5%;
+    background-color: whitesmoke;
+    padding: .125%;
+    border: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.learnMore:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+    .btn:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; }
+  
+  .learnMore:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);}
+    
+  
+  
+  .learnMore::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s; }
+
+    button:focus {outline:0;}
+
+/* DESCRIPTION BOX */
+.popup{
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    width: 50%;
+    height: 85%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    z-index: 10;
+}
+
+.popup-text-heading{
+    font-family: 'urbane';
+    font-size: 12pt;
+    font-weight: 400;
+    padding: 10px;
+    color: black;
+}
+
+.popup-text{
+    font-family: 'urbane';
+    font-size: 10pt;
+    font-weight: 300;
+    padding: 10px;
+    color: #656565;
+}
+
