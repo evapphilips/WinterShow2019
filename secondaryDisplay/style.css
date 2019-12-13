@@ -90,7 +90,7 @@ font-display:auto;font-style:normal;font-weight:100;
     position: absolute;
     height: 25%;
     width: 100%;
-    top: 165%;  
+    top: 175%;  
 }
 
 .label-single-container-2{
@@ -109,7 +109,7 @@ font-display:auto;font-style:normal;font-weight:100;
 
 .disclaimer{
     position: absolute;
-    top: 195%;
+    top: 200%;
     font-size: small;
     font-weight: 100;
     padding: 2pt;
