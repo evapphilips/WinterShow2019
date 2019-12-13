@@ -22,7 +22,7 @@ var circleContainer1 = section1.append('svg')
     .attr("height", height/2)
 
 var maxSize1 = width/14;
-var yPos1 = width/7
+var yPos1 = width/9
 var opacity = "1.00";
 var weekData = [314, 238, 231, 199, 285, 200, 200]
 var maxWeekSearch = 1000;
@@ -107,7 +107,7 @@ section2.append('h1')
 var circleContainer2 = section2.append('svg')
     .attr("class", "circle-container")
     .attr("width", width)
-    .attr("height", height/2)
+    .attr("height", 3*height/4)
 
 var maxSize2 = width/4;
 var yPos2 = width/4
