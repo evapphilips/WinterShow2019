@@ -35,29 +35,99 @@ font-display:auto;font-style:normal;font-weight:100;
     padding: 0;
 }
 
-.section1{
+.section{
     /* border: red;
     border-style: solid; */
-    height: 100vh;
+    height: 90vh;
 }
 
-.section2{
-    /* border: red;
-    border-style: solid; */
-    height: 100vh;
-}
+
 
 .heading{
     /* border: red;
     border-style: solid; */
-    
     text-align: center;
     font-size: medium;
-    margin: 2vh;
+    margin: 5vh;
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 
 .circle-container{
     /* border: red;
     border-style: solid; */
+    height: 85%;
+    margin-top: 5%;
 }
+
+.label-container-1{
+    /* border: red;
+    border-style: solid; */
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    top: 60%;  
+}
+
+.label-single-container-1{
+    display: inline-block;
+    height: 50%;
+    width: 11%;
+    /* padding-left: 2.5%; */
+    margin: 1.2%;
+    padding-left: .5%;
+    text-align: center;
+    font-weight: 300;
+    /* border: red;
+    border-style: solid; */
+
+}
+
+.label-container-2{
+    /* border: red;
+    border-style: solid; */
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    top: 150%;  
+}
+
+.label-single-container-2{
+    display: inline-block;
+    height: 50%;
+    width: 30%;
+    /* padding-left: 2.5%; */
+    margin: 8%;
+    padding-left: 3%;
+    text-align: center;
+    font-weight: 300;
+    /* border: red;
+    border-style: solid; */
+
+}
+
+.disclaimer{
+    position: absolute;
+    top: 190%;
+    font-size: small;
+    font-weight: 100;
+    padding: 2pt;
+}
+
+
+
+
+/* Google
+63,000 calls/sec
+.063M calls/sec
+
+
+Facebook
+13,000,000 calls/sec
+13M calls/sec
+
+
+Twitter
+70,000 calls/sec
+.07M calls/sec */
