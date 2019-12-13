@@ -109,8 +109,13 @@ function gotMessage(request, sender, sendResponse) {
         return d.x;
       })
       .attr('cy', function (d) {
-        //return d.y + ((height/100)*numNodes);
-        return d.y;
+        if(numNodes<8){
+          return d.y + ((height/50)*numNodes);
+        }else{
+          return d.y + ((height/50)*8);
+        }
+        //return d.y + ((height/80)*numNodes);
+        //return d.y;
       })
 
     u.exit().remove();
