@@ -57,7 +57,7 @@ font-display:auto;font-style:normal;font-weight:100;
 .circle-container{
     /* border: red;
     border-style: solid; */
-    height: 86%;
+    height: 90%;
     /* margin-top: .125%; */
 }
 
@@ -67,7 +67,7 @@ font-display:auto;font-style:normal;font-weight:100;
     position: absolute;
     height: 25%;
     width: 100%;
-    top: 60%;  
+    top: 50%;  
 }
 
 .label-single-container-1{
