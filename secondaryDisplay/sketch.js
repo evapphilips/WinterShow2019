@@ -17,7 +17,7 @@ section1.append('h1')
 
 // add circle container for the week
 var circleContainer1 = section1.append('svg')
-    .attr("class", "circle-container")
+    .attr("class", "circle-container-1")
     .attr("width", width)
     .attr("height", height/2)
 
@@ -101,11 +101,11 @@ var section2 = body.append('div')
 // add section 2 header
 section2.append('h1')
     .attr("class", "heading-2")
-    .text("Estimated Server Requests for Big Tech")
+    .text("Estimated server requests for big tech")
 
 // add circle container for the companies
 var circleContainer2 = section2.append('svg')
-    .attr("class", "circle-container")
+    .attr("class", "circle-container-2")
     .attr("width", width)
     .attr("height", 3*height/4)
 

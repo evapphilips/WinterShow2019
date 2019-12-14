@@ -109,10 +109,10 @@ function gotMessage(request, sender, sendResponse) {
         return d.x;
       })
       .attr('cy', function (d) {
-        if(numNodes<8){
+        if(numNodes<10){
           return d.y + ((height/50)*numNodes);
         }else{
-          return d.y + ((height/50)*8);
+          return d.y + ((height/50)*10);
         }
         //return d.y + ((height/80)*numNodes);
         //return d.y;
@@ -168,7 +168,7 @@ function gotMessage(request, sender, sendResponse) {
       .text("More stats:")
   box.append('div')
       .attr("class", "popup-text")
-      .text("About 7g of CO2 is produced for every Google Search.")
+      .text("About 7g of CO2 is produced for every Google search.")
   box.append('div')
       .attr("class", "popup-text")
       .text("In the year 2019, the internet will pollute more than civil aviation.")

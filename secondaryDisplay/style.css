@@ -58,17 +58,24 @@ font-display:auto;font-style:normal;font-weight:100;
     border-style: solid; */
     text-align: center;
     font-size: medium;
-    margin-top: 4.0vh;
+    /* margin-top: 2.0vh; */
     font-size: xx-large;
     font-weight: 600;
 }
 
 
-.circle-container{
+.circle-container-1{
     /* border: red;
     border-style: solid; */
     height: 90%;
-    margin-top: .25%;
+    margin-top: .5%;
+}
+
+.circle-container-2{
+    /* border: red;
+    border-style: solid; */
+    height: 90%;
+    margin-top: 2.5%;
 }
 
 .label-container-1{
@@ -100,7 +107,7 @@ font-display:auto;font-style:normal;font-weight:100;
     position: absolute;
     height: 25%;
     width: 100%;
-    top: 130%;  
+    top: 127%;  
 }
 
 .label-single-container-2{
