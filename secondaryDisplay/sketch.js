@@ -25,7 +25,7 @@ var maxSize1 = width/14;
 var yPos1 = width/9
 var opacity = "1.00";
 var weekData = [314, 238, 231, 199, 285, 193, 200]
-var maxWeekSearch = 1000;
+var maxWeekSearch = 600;
 
 // add all seven circles for the week
 circleContainer1.append("circle")
