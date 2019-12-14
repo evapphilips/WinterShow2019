@@ -43,12 +43,22 @@ font-display:auto;font-style:normal;font-weight:100;
 
 
 
-.heading{
+.heading-1{
     /* border: red;
     border-style: solid; */
     text-align: center;
     font-size: medium;
     margin-top: 4.5vh;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.heading-2{
+    /* border: red;
+    border-style: solid; */
+    text-align: center;
+    font-size: medium;
+    margin-top: 4.0vh;
     font-size: xx-large;
     font-weight: 600;
 }

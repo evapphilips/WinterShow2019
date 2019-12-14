@@ -12,7 +12,7 @@ var section1 = body.append('div')
 
 // add section 1 header
 section1.append('h1')
-    .attr("class", "heading")
+    .attr("class", "heading-1")
     .text("My browsing data this week")
 
 // add circle container for the week
@@ -100,7 +100,7 @@ var section2 = body.append('div')
 
 // add section 2 header
 section2.append('h1')
-    .attr("class", "heading")
+    .attr("class", "heading-2")
     .text("Estimated Server Requests for Big Tech")
 
 // add circle container for the companies
