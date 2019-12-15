@@ -16,8 +16,8 @@ var svg = body.append("svg")
 var bubbles = svg.append("g")
 
 // data
-var data = [314, 238, 231, 199, 285, 193, 200, 70000, 63000];
-var label = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Google", "Twitter"]
+var data = [314, 238, 231, 199, 285, 193, 166, 70000, 63000];
+var label = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Twitter", "Google"]
 
 // create nodes with random radii values
 var nodes = d3.range(numNodes).map(function (d, i) {
@@ -92,6 +92,12 @@ var u = d3.select('svg g')
   })
   .on("mouseover", function(d, i){
     console.log(d)
+    var l;
+    if(i<7){
+      l = " loads"
+    }else{
+      l = " calls/sec"
+    }
     div1.transition()
         .duration(50)
         .style("opacity", 1)
@@ -99,7 +105,7 @@ var u = d3.select('svg g')
     div2.transition()
         .duration(50)
         .style("opacity", 1)
-        .text(d.radius + " loads")
+        .text(d.radius + l)
     div3.transition()
         .duration(50)
         .style("opacity", 1)
